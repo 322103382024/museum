@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Chatbot-Based Ticketing System</title>
+    <style>
+        /* CSS for the hero section background with direct image reference */
+        .hero {
+            background-image: url('museum.jpg'); /* Direct reference to the image in the same directory */
+            background-size: cover;
+            background-position: center;
+            color: white; /* Text color for readability */
+            padding: 100px 20px;
+            text-align: center;
+            position: relative; /* Make sure the hero section positions relative */
+        }
+
+        /* Additional styles for better presentation */
+        header {
+            background-color: #c13b66;
+            padding: 10px 0;
+            position: relative;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+        }
+
+        .chatbot-button {
+            position: fixed; /* Fixed position to the viewport */
+            bottom: 20px; /* Distance from the bottom */
+            right: 20px; /* Distance from the right */
+            background-color: #60ff44; /* Changed button background color for better visibility */
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 5px;
+            text-decoration: none; /* Remove underline */
+            font-size: 16px;
+            z-index: 1000; /* Ensure it appears above other elements */
+        }
+
+        .chatbot-button:hover {
+            background-color: #60ff44; /* Button hover effect */
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            background-color: #c13b66;
+            color: white;
+            position: relative;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="features.html">Features</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Welcome to Our Chatbot-Based Ticketing System</h1>
+        <p>Streamline your ticket booking experience with our efficient and responsive chatbot solution.</p>
+    </section>
+
+    <!-- Chatbot Button -->
+    <a href="https://cdn.botpress.cloud/webchat/v2/shareable.html?botId=91ffeed7-9273-47b2-b0ab-48534937a5f4" class="chatbot-button" target="_blank">Chat with Us</a>
+    
+    <footer>
+        <p>&copy; 2024 Chatbot Ticketing System. All rights reserved.</p>
+    </footer>
+</body>
+</html>
